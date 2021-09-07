@@ -1,0 +1,20 @@
+{
+  "name": "kanggo.id-backend_api",
+  "version": "1.0.0",
+  "description": "Backend API For Codinb Test Kanggo.id",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiddiq-kiko/Kanggo.id-Backend_API.git"
+  },
+  "keywords": [],
+  "author": "Muhammad Ash Shiddieqy Kartiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiddiq-kiko/Kanggo.id-Backend_API/issues"
+  },
+  "homepage": "https://github.com/shiddiq-kiko/Kanggo.id-Backend_API#readme"
+}
