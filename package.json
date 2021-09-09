@@ -4,7 +4,10 @@
   "description": "Backend API For Codinb Test Kanggo.id",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-win": "SET NODE_ENV=development&& nodemon ./bin/www/http.js",
+    "dev": "NODE_ENV=development nodemon ./bin/www/http.js",
+    "start": "node ./bin/www/http.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,18 @@
   "bugs": {
     "url": "https://github.com/shiddiq-kiko/Kanggo.id-Backend_API/issues"
   },
-  "homepage": "https://github.com/shiddiq-kiko/Kanggo.id-Backend_API#readme"
+  "homepage": "https://github.com/shiddiq-kiko/Kanggo.id-Backend_API#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
 }
